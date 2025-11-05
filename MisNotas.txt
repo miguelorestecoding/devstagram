@@ -1,0 +1,5 @@
+Carpeta del Proyeto
+cd /mnt/c/Users/MOC\ Coding/Documents/misProyectosWeb/devstagram
+
+Para instalar Tatilwind
+sail npm install -D tailwindcss postcss autoprefixer
