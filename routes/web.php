@@ -23,3 +23,7 @@ Route::get('/tienda', function () {
 Route::get('/test', function () {
     return 'Funciona';
 });
+
+Route::get('/saludo', function () {
+    return 'Hola desde Laravel';
+});
