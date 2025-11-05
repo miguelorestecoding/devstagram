@@ -9,6 +9,12 @@ Route::get('/', function () {
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
+Route::get('/phppractice', function () {
+    return view('phppractice');
+});
+
+Route::get('/register', [RegisterController::class, 'index'])->name('register');
+Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/tienda', function () {
     return view('tienda');
