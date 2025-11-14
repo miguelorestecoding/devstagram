@@ -1,10 +1,13 @@
 @extends('layouts.app')
 
 @section('titulo')
-Sobre Nosotros
+Nosotros
 @endsection
 
 @section('contenido')
-Contenido de esta Página
+Sobre Nosotros
 @endsection
 
+<div class="bg-red-500 text-white p-4">
+    Si ves esto con fondo rojo, Tailwind está funcionando 🎉
+</div>
